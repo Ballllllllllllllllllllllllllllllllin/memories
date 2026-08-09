@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0d0b10">
+  <title>Memories ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain"></div>
+
+  <header class="topbar">
+    <div class="logo">memories<span>♡</span></div>
+    <button class="music-toggle" id="musicToggle" aria-label="Музыка">♫</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">Наш уголок❤</p>
+        <h1>Наша<br><em>история</em></h1>
+        <p class="hero-text">Хоть у нас и мало общих фото, но для меня каждое имеет свое значение (пока смотришь фотки включи кнопку песни😋😋)</p>
+        <button class="primary-btn" id="startBtn">Открыть воспоминания <span>↓</span></button>
+      </div>
+      <div class="scroll-hint">scroll to remember</div>
+    </section>
+
+    <section class="intro section">
+      <div class="section-inner narrow reveal">
+        <p class="eyebrow">01 — НАЧАЛО</p>
+        <h2>С некоторых моментов<br><em>начинается всё.</em></h2>
+        <p class="body-text">Но именно наши останутся у меня на всегда в памяти</p>
+      </div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">02 — ГАЛЕРЕЯ</p>
+            <h2>Кадры, в которых<br><em>осталось время</em></h2>
+          </div>
+          <p class="heading-note">Нажми на фотографию,<br>чтобы открыть её</p>
+        </div>
+
+        <div class="photo-grid" id="photoGrid">
+          <article class="photo-card tall reveal" data-title="Наш первый момент" data-date="13.05.2026" data-text="Самая первая наша удачная фотка😊">
+            <img src="images/photo-01.jpg" alt="Наш момент">
+            <div class="photo-caption"><span>01</span><strong>Первый момент</strong></div>
+          </article>
+
+          <article class="photo-card reveal" data-title="Но ему тоже здесь место" data-date="28.06.2026" data-text="Вот представь что ты моя жинка жиесть😜">
+            <img src="images/photo-02.jpg" alt="Рофл момент">
+            <div class="photo-caption"><span>02</span><strong>Рофл селфи</strong></div>
+          </article>
+
+          <article class="photo-card wide reveal" data-title="Просто мы" data-date="13.06.2026" data-text="Сучка не спала всю ночь🙄">
+            <img src="images/photo-03.jpg" alt="Просто мы">
+            <div class="photo-caption"><span>03</span><strong>Просто мы</strong></div>
+          </article>
+
+          <article class="photo-card reveal" data-title="Маленькое счастье" data-date="09.09.2026" data-text="Так чисто для улыбки😁">
+            <img src="images/photo-04.jpg" alt="Маленькое счастье">
+            <div class="photo-caption"><span>04</span><strong>Семейное фото</strong></div>
+          </article>
+
+          <article class="photo-card tall reveal" data-title="Знакомство с отцом" data-date="09.09.2026" data-text="Ему сноха явно понравилась😏">
+            <img src="images/photo-05.jpg" alt="Незабываемый вечер">
+            <div class="photo-caption"><span>05</span><strong>Семейное фото</strong></div>
+          </article>
+
+          <article class="photo-card reveal" data-title="И ещё один кадр" data-date="28.06.26" data-text="Моя самая любимая фотка😍">
+            <img src="images/photo-06.jpg" alt="Ещё один кадр">
+            <div class="photo-caption"><span>06</span><strong>И ещё один кадр</strong></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="timeline section">
+      <div class="section-inner narrow">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">03 — ХРОНОЛОГИЯ</p>
+            <h2>Наша история<br><em>по датам</em></h2>
+          </div>
+        </div>
+
+        <div class="timeline-list">
+          <article class="timeline-item reveal">
+            <div class="timeline-date">04.01.2026</div>
+            <div class="timeline-dot">♡</div>
+            <div><h3>Начало</h3><p>Пиздейц тяжко было</p></div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-date">09.05.2026</div>
+            <div class="timeline-dot">♡</div>
+            <div><h3>Самый неожиданный день</h3><p>Многое изменил🤭</p></div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-date">11.07.2026</div>
+            <div class="timeline-dot">♡</div>
+            <div><h3>Встреча после расстояния</h3><p>Приятный подарок (Лютая открытка и Хайзенберг)😊</p></div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-date">Сейчас</div>
+            <div class="timeline-dot">♥</div>
+            <div><h3>История продолжается</h3><p>И это только начало</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="moving section" id="moving">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">04 — ЛАЙВ ФОТО</p>
+            <h2>И это еще совсем не все.<br><em>На, смотре</em></h2>
+          </div>
+        </div>
+
+        <div class="video-grid">
+          <article class="video-card reveal">
+            <video src="videos/memory-01.mp4" autoplay muted loop playsinline></video>
+            <div><span>MEMORY 01</span><h3>Вот этот момент</h3></div>
+          </article>
+          <article class="video-card reveal">
+            <video src="videos/memory-02.mp4" autoplay muted loop playsinline></video>
+            <div><span>MEMORY 02</span><h3>Этот тоже</h3></div>
+          </article>
+          <article class="video-card reveal">
+            <video src="videos/memory-03.mp4" autoplay muted loop playsinline></video>
+            <div><span>MEMORY 02</span><h3>И этот тоже)</h3></div>
+          </article>
+        </div>
+        <p class="video-note reveal"><code></code></p>
+      </div>
+    </section>
+
+    <section class="letter section">
+      <div class="letter-card reveal">
+        <p class="eyebrow">05 — ДЛЯ ТЕБЯ</p>
+        <h2>Есть вещи,<br>которые трудно сказать<br><em>вслух.</em></h2>
+        <p>На самом деле ты для меня очень многое значишь, я очень сильно тебя люблю и моментами даже боюсь потерять тебя. Я готов быть с тобой в любые моменты: тяжелые, приятные. Но знай что ты для меня самая любимая девочка, мне с тобой слишком ахуенно и даже не стараясь веселить, у нас с тобой очень хороший коннект. Помнишь что я тебе говорил)?</p>
+        <div class="signature">с любовью, <span>Марк</span> ♡</div>
+      </div>
+    </section>
+
+    <section class="ending section">
+      <div class="ending-content reveal">
+        <p class="eyebrow">06 — ПРОДОЛЖЕНИЕ</p>
+        <h2>И это<br><em>только начало.</em></h2>
+        <p>В следуйщий раз будет намного лучше сюрприз. Я старался!</p>
+        <button class="primary-btn" id="backBtn">Начать сначала ↑</button>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="close-lightbox" id="closeLightbox" aria-label="Закрыть">×</button>
+    <div class="lightbox-content">
+      <img id="lightboxImage" src="" alt="">
+      <div class="lightbox-info">
+        <span id="lightboxDate"></span>
+        <h2 id="lightboxTitle"></h2>
+        <p id="lightboxText"></p>
+      </div>
+    </div>
+  </div>
+
+  <audio id="bgMusic" src="music/song.mp3" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>
